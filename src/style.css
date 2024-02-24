@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    padding: 40px 0;
+    background: #F5F5F5;
+}
+.wrapper{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 7px;
+    padding: 8px;
+    
+}
+.infoBar{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.choice__container{
+    display: flex;
+    justify-content: end;
+}
+.average{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.average__title{
+    font-size: 16px;
+    color: #667985;
+}
+.average__const{
+    font-size: 48px;
+    color: #F38B00;
+}
+.average__const span{
+    font-size: 20px;
+    color: #667985;
+    margin-left: 10px;
+}
