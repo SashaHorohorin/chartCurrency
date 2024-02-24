@@ -5,8 +5,16 @@
 3. Переключение курсов валют
 4. Компоненты из библиотеки Consta UI Kit
 
-Пример использования:
+Два варианта запуска приложения: 
+
+1. Запуск через Docker
 
 ```
-<ReactECharts option={option}/>
+docker compose up
 ```
+2. Запуск через npm 
+```
+npm install
+npm start
+```
+
